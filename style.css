@@ -1,0 +1,62 @@
+html,
+body,
+#viewDiv {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+/*   background-color: #232227; */
+  overflow-y: hidden;
+}
+/* .no-pointer {
+  pointer-events: none;
+} */
+#myContainer {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 310px;
+  box-shadow: 0px 0px 2px 1px rgba(100, 100, 100, 0.75);
+  z-index: 10;
+  display: none;
+  text-align: center;
+}
+.esri-view .esri-view-surface--inset-outline:focus::after {
+  outline: none !important;
+}
+#displayDate {
+  color: #e53935;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+#logo {
+  width: 10%;
+}
+img {
+  width: 100%;
+}
+.esri-widget--button {
+  color: #ef5350 !important;
+}
+.esri-widget--button:hover {
+  color: #e53935 !important;
+}
+#progressBar {
+  padding: 3px 3px;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.ui.progress {
+  background-color: #242424 !important;
+  box-shadow: 0px 0px 2px 1px rgba(229, 57, 53, 1) !important;
+}
+.ui.progress .bar {
+  height: 0.4em !important;
+  background: #e53935 !important;
+}
+#mySuccess {
+  background-color: #e53935 !important;
+}
